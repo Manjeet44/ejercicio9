@@ -32,9 +32,9 @@ public class Main {
 }
 
 class Persona {
-    int edad;
-    String nombre;
-    int telefono;
+    private int edad;
+    private String nombre;
+    private int telefono;
     public void setEdad(int edad) {
         this.edad = edad;
     }
@@ -59,7 +59,7 @@ class Persona {
 }
 
 class Cliente extends Persona {
-    int credito;
+    private int credito;
     public void setCredito(int credito) {
         this.credito = credito;
     }
@@ -70,7 +70,7 @@ class Cliente extends Persona {
 }
 
 final class Trabajador extends Persona {
-    int salario;
+    private int salario;
     public void setSalario(int salario) {
         this.salario = salario;
     }
